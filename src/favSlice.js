@@ -6,7 +6,7 @@ export const favslice=createSlice({
         favidems:[]
     },
     reducer:{
-        addtocart:(state,action)=>{
+        addtofav:(state,action)=>{
             console.log(state,action);
         state.favidems=action.payload
         }
